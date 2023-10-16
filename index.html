@@ -8,6 +8,10 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container mt-5">
@@ -17,13 +21,9 @@
           <h1>Orbit</h1>
         </div>
         <div class="col-md-2">
-            <a href="mailto:orbit-sustainability@gmail.com">
-          <button            
-            class="btn btn-primary"            
-          >          
-            → get in touch        
-          </button>
-        </a>
+          <a href="mailto:orbit-sustainability@gmail.com">
+            <button class="btn btn-primary">→ get in touch</button>
+          </a>
         </div>
       </div>
 
@@ -41,17 +41,24 @@
 
         <!-- Right column: Image/Graphic -->
         <div class="col-md-8">
-          <script
-            type="module"
-            src="https://unpkg.com/@splinetool/viewer@0.9.481/build/spline-viewer.js"
-          ></script>
-          <spline-viewer
-            url="https://prod.spline.design/p2dYCoKeIXSWWZZ8/scene.splinecode"
-          ></spline-viewer>
+          <div class="spline-wrapper">
+            <div class="spline-content">
+              <script
+                type="module"
+                src="https://unpkg.com/@splinetool/viewer@0.9.481/build/spline-viewer.js"
+              ></script>
+              <spline-viewer
+                url="https://prod.spline.design/p2dYCoKeIXSWWZZ8/scene.splinecode"
+              ></spline-viewer>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </body>
+</html>
 
-      <!-- Thumbnails
+<!-- Thumbnails
       <div class="row mt-3">
         <div class="col-md-4">
           <img
@@ -83,8 +90,8 @@
       </div>
     -->
 
-      <!-- Footer -->
-      <!-- <div class="row mt-5">
+<!-- Footer -->
+<!-- <div class="row mt-5">
         <div class="col-md-12">
           <h2>Headline</h2>
           <p>Text</p>
@@ -92,11 +99,3 @@
       </div>
     </div> 
     -->
-    
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </body>
-</html>

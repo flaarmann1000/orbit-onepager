@@ -69,3 +69,8 @@ h2 {
 #logo {
   display: none !important;
 }
+
+.spline-wrapper {
+  overflow: hidden;
+  height: 500px;
+}
