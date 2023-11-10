@@ -1,20 +1,37 @@
 import React from "react";
 
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 function ContactSection() {
   return (
-    <div className="contact-section">
-      <div className="row justify-content-center py-3">
-        <div className="col-auto">
-          <h4>
-            let's talk! <i className="fas fa-envelope"></i>
-          </h4>
-        </div>
-        <div className="col-12 text-center">
-          <a href="/impressum">Impressum</a> |{" "}
-          <a href="/datenschutz">Datenschutz</a> |{" "}
-          <a href="/cookies">Cookies</a> | <a href="linkedin">LinkedIn</a>
-        </div>
-      </div>
+    <div className="section contact-section">
+      <br />
+      <br />
+      <br />
+      <Row>
+        <Col lg="1"></Col>
+        <Col lg="3">
+          <p>
+            Sounds <br />
+            interesting? → <i className="fas fa-envelope"></i>
+          </p>
+        </Col>
+        <Col lg="1"></Col>
+        <Col>
+          <h3>
+            <a
+              style={{ color: "black", "text-decoration": "none" }}
+              href="mailto:orbit-sustainability@gmail.com"
+            >
+              let's talk! <i className="fas fa-envelope"></i>
+            </a>
+          </h3>
+        </Col>
+      </Row>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

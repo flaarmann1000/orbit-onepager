@@ -14,7 +14,11 @@ function Header() {
           <h1 className="mb-0">orbit</h1>
         </div>
         <div className="col-auto">
-          <button className="btn btn-primary">Schedule Demo</button>
+          <a href="mailto:orbit-sustainability@gmail.com">
+            <button className="btn btn-primary" onClick="mailto:hello@">
+              Schedule Demo
+            </button>
+          </a>
         </div>
         <div className="col-1"></div>{" "}
         {/* Empty column with a width of 2 columns on the right side */}

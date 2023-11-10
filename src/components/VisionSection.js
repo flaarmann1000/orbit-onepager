@@ -2,15 +2,20 @@ import React from "react";
 import vision from ".././assets/vision_image.png";
 import "../styles/VisionSection.scss";
 
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 function VisionSection() {
   return (
-    <div className="vision-section">
-      <div className="row align-items-center py-5">
-        <div className="col-1"></div>
-        <div className="col-md-5">
+    <div className="section vision-section">
+      <br />
+      <Row>
+        <Col lg="1" />
+        <Col lg="5">
           <img src={vision} alt="Vision 2025" className="img-fluid" />
-        </div>
-        <div className="col-md-3">
+        </Col>
+        <Col lg="3">
+          <br />
           <p className="tagline">ABOUT</p>
           <h3>Vision 2025</h3>
           <p>
@@ -20,8 +25,9 @@ function VisionSection() {
             do so: <br /> <br />
             orbit, leading the way in <b>sustainable innovation</b>.
           </p>
-        </div>
-      </div>
+        </Col>
+      </Row>
+      <br />
     </div>
   );
 }
