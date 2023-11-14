@@ -9,7 +9,7 @@ function Footer() {
       {/* <Row> */}
       <Row className="align-items-center" style={{ height: "100%" }}>
         <Col xs="1" />
-        <Col xs="1">
+        <Col xs="3" md="1">
           <a href="http://felixlaarmann.de/imprint/">Imprint</a>
         </Col>
         <Col xs="1">

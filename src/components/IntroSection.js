@@ -17,11 +17,8 @@ function IntroSection() {
           <p className="tagline">INTRO</p>
           <h2>[ˈɔʁbɪt] - crafting sustainable future products & services</h2>
           <p className="py-2">
-            orbit is a software for consultancies, to cocreate, model, and
+            orbit is a software for consultancies to cocreate, model, and
             analyze innovative sustainable products and services. <br />
-            <br />
-            It enables consultancies to expand their services toward their
-            customers demand.
           </p>
         </Col>
         <Col lg="1"></Col>
@@ -31,6 +28,8 @@ function IntroSection() {
           </div>
         </Col>
       </Row>
+      <br />
+      <br />
     </div>
   );
 }

@@ -17,12 +17,14 @@ function VisionSection() {
         <Col lg="3">
           <br />
           <p className="tagline">ABOUT</p>
-          <h3>Vision 2025</h3>
+          <h3>vision 2025</h3>
           <p>
-            we believe in a future, where sustainability plays a major role in
-            the development-process of products and services - not afterwards,
-            in the accounting. In the described future, we created the tool, to
-            do so: <br /> <br />
+            we believe that shaping a sustainable future requires us to do more
+            than accounting and reporting environmental impacts. <br />
+            <br />
+            it requires us to rethink innovation and development processes. with
+            orbit we create a tool to do so:
+            <br /> <br />
             orbit, leading the way in <b>sustainable innovation</b>.
           </p>
         </Col>

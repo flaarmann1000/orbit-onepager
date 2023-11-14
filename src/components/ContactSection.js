@@ -13,7 +13,7 @@ function ContactSection() {
         <Col lg="1"></Col>
         <Col lg="3">
           <p>
-            Sounds <br />
+            sounds <br />
             interesting? → <i className="fas fa-envelope"></i>
           </p>
         </Col>
@@ -21,7 +21,7 @@ function ContactSection() {
         <Col>
           <h3>
             <a
-              style={{ color: "black", "text-decoration": "none" }}
+              className="talk-cta"
               href="mailto:orbit-sustainability@gmail.com"
             >
               let's talk! <i className="fas fa-envelope"></i>

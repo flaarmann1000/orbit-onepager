@@ -15,9 +15,7 @@ function Header() {
         </div>
         <div className="col-auto">
           <a href="mailto:orbit-sustainability@gmail.com">
-            <button className="btn btn-primary" onClick="mailto:hello@">
-              Schedule Demo
-            </button>
+            <button className="btn btn-primary">Schedule Demo</button>
           </a>
         </div>
         <div className="col-1"></div>{" "}

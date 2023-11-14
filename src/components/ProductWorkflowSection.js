@@ -20,6 +20,7 @@ function ProductWorkflowSection() {
           </p>
         </Col>
       </Row>
+      <br />
       <Row className="card-container">
         <Col lg="1" />
         <Col lg="3" className="card">
@@ -32,8 +33,8 @@ function ProductWorkflowSection() {
             </Col>
           </Row>
           <p>
-            ingest client data, and combine it with integrated industry standard
-            databases, e.g, ecoinvent, agribalyse.
+            ingest project specific information, and fuse it with integrated
+            industry standard databases, e.g, ecoinvent, agribalyse.
           </p>
         </Col>
         <Col lg="3" className="card">
@@ -46,9 +47,9 @@ function ProductWorkflowSection() {
             </Col>
           </Row>
           <p>
-            ai-supported holistic concept; modelling based on high level
-            commands - also lets you ingest design files, or simulate different
-            scenarios with your model
+            explore and define innovation opportunities by using text commands.
+            our ai generates future scenarios by simulating suitable process
+            chains.
           </p>
         </Col>
         <Col lg="3" className="card">
@@ -61,9 +62,9 @@ function ProductWorkflowSection() {
             </Col>
           </Row>
           <p>
-            generation of LCA studies (ISO 14040), as well as strategic
-            recommendations. carbon footprint, water and land use - just to name
-            a few - orbit has holistic standards
+            ai-generate LCA studies (ISO 14040) to holistically understand your
+            innovation's environmental impacts: carbon footprint, water and land
+            use - just to name a few.
           </p>
         </Col>
       </Row>

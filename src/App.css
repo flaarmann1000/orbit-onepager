@@ -130,3 +130,12 @@ p {
   position: absolute;
   z-index: -1;
 }
+
+.talk-cta {
+  color: black;
+  text-decoration: none;
+  transition: color, 0.5s;
+}
+.talk-cta:hover {
+  color: rgba(106, 103, 191, 1);
+}

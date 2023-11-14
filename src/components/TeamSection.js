@@ -13,6 +13,7 @@ function TeamSection() {
           <Col md="9">
             <p className="tagline">TEAM</p>
             <h3>behind orbit</h3>
+            <br />
             <img src={team} alt="Team" className="img-fluid" />
           </Col>
         </Row>
