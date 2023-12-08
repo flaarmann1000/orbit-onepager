@@ -5,6 +5,7 @@ import IntroSection from "./components/IntroSection";
 import VisionSection from "./components/VisionSection";
 import ProductWorkflowSection from "./components/ProductWorkflowSection";
 import TeamSection from "./components/TeamSection";
+import JoinSection from "./components/JoinSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
         <VisionSection />
         <ProductWorkflowSection />
         <TeamSection />
+        <JoinSection />
         <ContactSection />
       </main>
       <footer>

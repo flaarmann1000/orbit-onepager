@@ -14,8 +14,8 @@ function Header() {
           <h1 className="mb-0">orbit</h1>
         </div>
         <div className="col-auto">
-          <a href="mailto:orbit-sustainability@gmail.com">
-            <button className="btn btn-primary">Schedule Demo</button>
+          <a href="mailto:mariana@orbit-sustainability.com">
+            <button className="btn btn-primary">Let's talk</button>
           </a>
         </div>
         <div className="col-1"></div>{" "}

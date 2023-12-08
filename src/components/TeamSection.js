@@ -38,7 +38,7 @@ function TeamSection() {
           </Col>
         </Row>
       </div>
-      <div className="background-color"></div>
+      <div className="background-offset"></div>
     </>
   );
 }

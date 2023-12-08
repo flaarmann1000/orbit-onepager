@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 function ContactSection() {
   return (
-    <div className="section contact-section">
+    <div className="section contact-section yellow-background">
       <br />
       <br />
       <br />
@@ -22,7 +22,7 @@ function ContactSection() {
           <h3>
             <a
               className="talk-cta"
-              href="mailto:orbit-sustainability@gmail.com"
+              href="mailto:mariana@orbit-sustainability.com"
             >
               let's talk! <i className="fas fa-envelope"></i>
             </a>

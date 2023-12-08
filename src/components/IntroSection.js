@@ -18,7 +18,7 @@ function IntroSection() {
           <h2>[ˈɔʁbɪt] - crafting sustainable future products & services</h2>
           <p className="py-2">
             orbit is a software for consultancies to cocreate, model, and
-            analyze innovative sustainable products and services. TEST
+            analyze innovative sustainable products and services.
             <br />
           </p>
         </Col>
