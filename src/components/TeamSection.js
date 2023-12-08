@@ -22,7 +22,7 @@ function TeamSection() {
           <Col md="1" />
           <Col md="4">
             <h4>
-              different backgrounds, united by a shared goal & mindset - This is
+              different backgrounds, united by a shared goal & mindset - this is
               orbit.
             </h4>
           </Col>
