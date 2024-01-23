@@ -21,17 +21,12 @@ function VisionSection() {
               <h3>→ add your impact</h3>
               <br />
               <p>
-                we are looking for a full-stack software developer to join our
-                team as <b>CTO</b>.
+                we are looking for a software developer to join our team as{" "}
+                <b>CTO</b>.
                 <br />
                 <br />
-                you should bring along advanced expertise with <b>
-                  front-end
-                </b>{" "}
-                and <b> back-end</b> technologies.
-                <br /> <br />
-                expertise with <b>LLM application frameworks </b>
-                and machine learning platforms is appreciated.
+                you should bring along expertise with <b>front-end</b> and
+                ideally also <b> back-end</b> technologies.
                 <br /> <br />
                 naturally you should share our passion for
                 <b> sustainability and entrepreneurship</b>.
