@@ -48,16 +48,19 @@ class Construction extends Component {
             <br />
             <p className="py-2">
               while over visually pleasing website is on vacation, <br></br>you
-              can find all informations right here:
+              can find all information right here:
               <br />
             </p>
-            <a
-              className="big-link"
-              href="https://orbit-sustainability.notion.site/orbit-resource-hub-2a36796736b144258c86424638413be3"
-              target="_blank"
-            >
-              orbit resource hub
-            </a>
+            <p>
+              <b>→ </b>
+              <a
+                className="big-link"
+                href="https://orbit-sustainability.notion.site/orbit-resource-hub-2a36796736b144258c86424638413be3"
+                target="_blank"
+              >
+                orbit resource hub
+              </a>
+            </p>
           </Col>
           <Col lg="1"></Col>
           {isDesktop && ( // Render Spline component conditionally based on isDesktop
