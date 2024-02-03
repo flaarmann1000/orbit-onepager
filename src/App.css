@@ -128,8 +128,12 @@ p {
 .footer-section {
   background-color: black;
   padding: 0px;
-  height: 120px;
+  /* height: 120px; */
+  height: 50px;
   overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-section a {
@@ -186,4 +190,19 @@ p {
 
 .circle {
   border-radius: 50%;
+}
+
+.construction-section {
+  height: 100%;
+  overflow: hidden;
+}
+
+.big-link {
+  color: #5925dc;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-underline-offset: 8px;
 }

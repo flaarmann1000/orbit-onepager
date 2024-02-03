@@ -8,6 +8,7 @@ import TeamSection from "./components/TeamSection";
 import JoinSection from "./components/JoinSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import Construction from "./components/Construction";
 
 import Container from "react-bootstrap/Container";
 
@@ -15,14 +16,15 @@ function App() {
   return (
     <Container fluid className="p-0">
       <Header></Header>
-      <main>
+      <Construction></Construction>
+      {/* <main>
         <IntroSection />
         <VisionSection />
         <ProductWorkflowSection />
         <TeamSection />
         <JoinSection />
         <ContactSection />
-      </main>
+      </main>*/}
       <footer>
         <Footer />
       </footer>
