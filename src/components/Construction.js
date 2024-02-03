@@ -40,15 +40,20 @@ class Construction extends Component {
         <Row>
           <Col lg="1" />
           <Col lg="4">
+            {isDesktop && (
+              <>
+                <br />
+                <br />
+              </>
+            )}
             <br />
             <br />
-            <br />
-            <br />
-            <h2>🚧 we are under construction</h2>
+            {isDesktop && <h2>🚧 we are under construction</h2>}
+            {!isDesktop && <h3>🚧 we are under construction</h3>}
             <br />
             <p className="py-2">
-              while over visually pleasing website is on vacation, <br></br>you
-              can find all information right here:
+              while our visually pleasing website is on vacation, you can find
+              all information right here:
               <br />
             </p>
             <p>
