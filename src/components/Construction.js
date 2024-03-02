@@ -60,7 +60,8 @@ class Construction extends Component {
               <b>→ </b>
               <a
                 className="big-link"
-                href="https://orbit-sustainability.notion.site/orbit-resource-hub-2a36796736b144258c86424638413be3"
+                // href="https://orbit-sustainability.notion.site/orbit-resource-hub-2a36796736b144258c86424638413be3"
+                href="https://docs.orbit-sustainability.com/"
                 target="_blank"
               >
                 orbit resource hub
